@@ -1,4 +1,8 @@
-# Terraform Progress Bar
+## NOTICE:
+
+* Repo has moved to [github.com/tfbar/web](https://github.com/tfbar/web)
+
+
 ### Watch progress of terraform cli commands
 #### No installation required
 
