@@ -3,13 +3,14 @@
 * Repo has moved to [github.com/tfbar/web](https://github.com/tfbar/web)
 
 
+# Terraform Progress Bar
 ### Watch progress of terraform cli commands
 #### No installation required
 
 ### How to use 
 
 
-![](https://github.com/oferca/tf/blob/main/npx-tfh.gif)
+![](https://github.com/tfbar/web/blob/main/npx-tfh.gif)
 
 
 ### [Tree View Demo](https://www.youtube.com/watch?v=orrhT1PQYsw)
@@ -20,13 +21,13 @@
 
 ## Setup options
 ### Option 1: Zero setup
-Add *' | npx github:oferca/tf'* or *' | npx tfh@latest'* to a terraform command.
+Add *' | npx github:tfbar/web'* or *' | npx tfh@latest'* to a terraform command.
 
 For example:
 
 ####  In windows cmd / linux / mac 
 ```
-$ terraform plan | npx github:oferca/tf 
+$ terraform plan | npx github:tfbar/web 
 ```
 or
 ```
@@ -38,7 +39,7 @@ $ terraform plan | npx tfh@latest
 #### In linux / mac 
 Add the following line to your favorite shell config file: .zshrc, .bashrc, .bash_profile.
 ```
-$ iterraform(){ terraform "$@" | npx github:oferca/tf  }
+$ iterraform(){ terraform "$@" | npx github:tfbar/web }
 ```
 Then use it:
 ```
@@ -49,7 +50,7 @@ $ iterraform plan
 * Create a batch file named *iterraform.bat* and paste the following into it
 ```
 @ECHO OFF 
-terraform %* | npx github:oferca/tf
+terraform %* | npx github:tfbar/web
 ```
 * Add *iterraform.bat* to [system path](https://www.mathworks.com/matlabcentral/answers/94933-how-do-i-edit-my-system-path-in-windows)
 
@@ -69,3 +70,4 @@ Pull requests are welcome. Feel free to...
 
 ## License
 [License](https://htmlpreview.github.io/?https://github.com/oferca/tf/blob/main/LICENSE) CC BY-NC-ND 4.0 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz6HUcjVjf9BcSd19ld6N-catKylrVJSOU6A&usqp=CAU" height="12" width="55" />
+
